@@ -64,12 +64,15 @@ header .actions span {
     display: inline-block;
 }
 .hero-left {
-    width: 495px;
+    width: 580px;
     vertical-align: 95px;
+    
 }
 .hero-left h1 {
+    position: relative;
     color: #fff;
     font-size: 50px;
+    z-index: 1;
 }
 .hero-left p {
     color: rgba(102, 69, 53, 1);
@@ -93,9 +96,10 @@ header .actions span {
 }
 .hero-right {
     position: relative;
+    left: -70px;
 }
 .hero-right img:first-child {
-   width: 606px;
+   width: 520px;
 }
 .hero-right img:last-child {
     width: 240px;
@@ -103,6 +107,31 @@ header .actions span {
     right: 0px;
     bottom:-20px;
 }
-
+.tutorial {
+    padding: 82px 0;
+}
+.title {
+    text-align: center;
+}
+.title h2 {
+    font-size: 40px;
+}
+.title h2 span {
+    color: rgba(117, 181, 200, 1);
+}
+.title p {
+    width: 650px;
+    display: inline-block;
+    margin: 11px 0 37px ;
+}
+.tutorial .card-left {
+    position: relative;
+    display: inline-block;
+}
+.tutorial .card-left img:last-child {
+    position: absolute;
+    bottom: -50px;
+    right: -70px;
+}
 
 
