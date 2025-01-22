@@ -165,6 +165,82 @@ header .actions span {
 .card2 .card-left {
     margin-left: 180px;
 }
+.info-bear h2 {
+    text-align: center;
+    color: rgb(102, 69, 53);
+    font-size: 50px;
+}
+.info-bear span {
+    color:rgb(122, 184, 203);
+}
+.top-name p {
+    text-align: center;
+    margin: 30px 80px;
+} 
+.info-bear .list {
+    display: inline-block;
+    margin: 50px 30px 70px 15px;
+    
+}
+.info-bear .list-bot {
+    margin-bottom: 30px;
+}
+.info-bear .text-top h3 {
+    font-size: 33px;
+    margin-bottom: 15px;
+}
+.info-bear .text-top {
+    color: #664535;
+}
+.info-bear .list .box1 {
+    width: 319px;
+    height: 275px;
+    background-image: linear-gradient(to bottom, rgb(117, 113, 192) 23%, rgb(118, 212, 247) 100%);
+    position: relative;
+    border-radius: 20px;
+    margin: 50px  0;
+    box-shadow: 0 4px 18px 1px black;
+}
+.info-bear .list .box2 {
+    width: 319px;
+    height: 275px;
+    background-color: rgb(117, 113, 192);
+    border-radius: 20px;
+    margin: 50px 0;
+}
+
+.list .box1 img:first-child{
+    position: absolute;
+    width: 95px;
+    height: 93px;
+    top: 30px;
+    right: 30px;
+    transform: scaleX(-1);
+}
+.list .box1 img:last-child {
+    position: absolute;
+    width: 249px;
+    height: 239px;
+    top: 36px;
+    left: 10px;
+}
+.list .box3{
+    position: relative;
+}
+.list .box3 img:first-child{
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    width: 313px;
+    height: 254px;
+}
+.list .box3 img:last-child {
+    position: absolute;
+    top: 140px;
+    right: -10px;
+    width: 195px;
+    height: 135px;
+}
 .offer .wrapper {
     background-color: rgba(19, 176, 177, 1);
     border-radius: 20px;
@@ -246,3 +322,209 @@ header .actions span {
    margin: 0 auto;
    line-height: 48px;
 }
+.money-back {
+    position: relative;
+}
+.money-back-wrapper {
+    background-color: rgb(115, 114, 189);
+    border-radius: 20px;
+    color: white;
+    padding:  44px 73px 26px;
+}
+.money-back-left {
+    width: 450px;
+    display: inline-block;
+}
+.money-back-left h3 {
+    font-size: 40px;
+}
+.money-back-left p {
+    font-size: 18px;
+    margin: 14px 0 18px;
+}
+.money-back-left a {
+    color: #fff;
+    border-radius: 30px;
+    background-color: rgb(255, 133, 67);
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 17px 124px;
+    position: relative;
+    overflow: hidden;
+}
+.money-back-left a::after {
+    content: "";
+    position: absolute;
+    top: -16px;
+    left: -40px;
+    width: 30px;
+    height: 80px;
+    background-color: white;
+    filter: blur(30px);
+    transform: rotate(25deg);
+    transition: 0.5s;
+}
+.money-back-left a:hover:after {
+    transform: translateX(350px) rotate(25deg);
+}
+.money-back-right {
+    border: 1px solid red;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+.money-back-right img {
+    position: absolute;
+}
+.money-back-right img:nth-child(1) {
+   top: -84px;
+   left: 100px;
+}
+.money-back-right img:nth-child(2) {
+    top: 61px;
+    left: 260px;
+}
+.dec  {
+   position: absolute;
+   top: 60px ;
+   left: 500px;
+   
+}
+footer {
+    background-color: rgb(77, 15, 15);
+    color: #fff;
+    padding: 40px 0;
+}
+.footer-top {
+    border: 1px solid red;
+}
+
+.footer-top > *,
+footer nav ul {
+    margin-right: 160px;
+    display:inline-block ;
+    list-style: none;
+    border: 1px solid yellow;
+}
+footer .logo {
+    margin-right: 0;
+}
+.footer-info {
+    width: 250px;
+}
+.footer-top > * ,
+ .footer-top nav > ul
+{
+    vertical-align: top;
+}
+.footer-top a:not(.logo) {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+}
+.footer-top ul li:first-child  {
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+.footer-top ul:last-child {
+    margin-right: 0;
+}
+.footer-top h5 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.footer-top .info p {
+    line-height: 30px;
+}
+footer form {
+    position: relative;
+}
+footer form > * {
+   display: block;
+}
+footer form label {
+    margin-bottom: 15px;
+}
+footer form input[type="email"] {
+    background-color: transparent;
+    border:1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 40px;
+    color: #fff;
+    width: 260px;
+    padding: 10px 15px;
+    transition: 0.3;
+}
+footer form input[type="email"]:focus {
+    outline: none;
+    border-color: #fff;
+}
+footer form input[type="email"]::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+footer form input[type="image"] {
+    position: absolute;
+    top: 43px;
+    left: 230px;
+    transition: 0.4;
+    width: 20px;
+    height: 20px;
+}
+footer form input[type="image"]:hover {
+   left: 15px;
+}
+footer .socials {
+    text-align: center;
+    margin-top: 30px;
+}
+footer .socials a {
+    text-decoration: none;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 20px;
+    box-shadow: 0 5px 15px 2px #ffffff9d;
+    position: relative;
+    overflow: hidden;
+}
+footer .socials i {
+    font-size: 22px;
+    color: royalblue;
+    transition: 0.3;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+footer .socials a:hover i {
+    font-size: 26px;
+    color: #fff;
+}
+footer .socials a::after {
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: -80px;
+    width: 90px;
+    height: 90px;
+    background-color: royalblue;
+    transform: rotate(45deg);
+    transition: 0.2;
+    
+}
+footer .socials a:hover:after {
+    animation: move 0.7s ;
+    top: -5px;
+    left: -20px;
+}
+@keyframes move {
+    
+    50%{
+        transform: translate(30px, -30px) rotate(45deg);
+    }
+} 
